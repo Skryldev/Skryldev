@@ -1,5 +1,49 @@
 # 💫 About Me:
-I am a Full-Stack Engineer with deep expertise in Node.js, Bun.js, Express.js, Nest.js, Next.js, Golang, and Elysia.js, complemented by robust experience with Kubernetes, Docker, Prometheus, Redis, and MySQL. I design and build scalable, high-performance systems with a focus on maintainability and long-term architecture integrity.<br>My engineering philosophy centers on:<br>Clean Architecture & Code Standards – Committed to separation of concerns, modularity, and clean, maintainable code.<br>Scalability & Reliability – Building services designed for fault tolerance, horizontal scalability, and future growth.<br>Performance Optimization – Continuously optimizing queries, reducing latency, and eliminating architectural bottlenecks.<br>Engineering Quality & Testability – Developing with systematic debugging, thorough testing, and proactive monitoring in production environments.<br>End-to-End DevOps Mindset – Taking ownership of the full development lifecycle, from design to deployment, monitoring, and continuous improvement.<br>Collaborative Professionalism – Emphasizing clear communication, constructive code reviews, proper documentation, and agile teamwork.<br>Continuous Learning & Modern Practices – Staying up-to-date with cutting-edge tools, frameworks, and architectural patterns, applying them in practical, production-ready solutions.<br>I thrive in challenging environments where engineering rigor, performance, and scalability are paramount, and I am always eager to solve complex problems with elegant, maintainable solutions.
+# Hi, I'm Alireza 👋  
+**Full-Stack Engineer | Node.js | Golang | Kubernetes | Docker**
+
+I am a **Full-Stack Engineer** with extensive expertise in **Node.js, Bun.js, Express.js, Nest.js, Next.js, Golang, and Elysia.js**, complemented by strong experience with **Kubernetes, Docker, Prometheus, Redis, and MySQL**.  
+I design and build **scalable, high-performance systems** with a focus on **maintainability and long-term architectural integrity**.  
+
+---
+
+## 🚀 Engineering Philosophy
+
+- **Clean Architecture & Code Standards**  
+  Committed to **separation of concerns**, modularity, and writing **clean, maintainable code** that stands the test of time.  
+
+- **Scalability & Reliability**  
+  Designing services for **fault tolerance, horizontal scalability**, and sustainable growth, rather than short-term fixes.  
+
+- **Performance Optimization**  
+  Continuously optimizing queries, reducing latency, and identifying/eliminating **architectural bottlenecks**.  
+
+- **Engineering Quality & Testability**  
+  Developing with **systematic debugging, thorough testing**, and proactive monitoring to ensure **production reliability**.  
+
+- **End-to-End DevOps Mindset**  
+  Taking ownership of the **entire development lifecycle**, from design and deployment to monitoring and continuous improvement.  
+
+- **Collaborative Professionalism**  
+  Practicing **clear communication, constructive code reviews, proper documentation**, and thriving in **agile team environments**.  
+
+- **Continuous Learning & Modern Practices**  
+  Staying current with **cutting-edge tools, frameworks, and architectural patterns**, applying them in **practical, production-ready solutions**.  
+
+---
+
+I thrive in challenging environments where **engineering rigor, performance, and scalability** are paramount, and I am passionate about solving complex problems with **elegant, maintainable solutions**.  
+
+---
+
+### 🛠 Skills & Tools
+
+**Languages & Frameworks:** Node.js, Bun.js, Express.js, Nest.js, Next.js, Golang, Elysia.js  
+**DevOps & Infrastructure:** Kubernetes, Docker, Prometheus  
+**Databases & Caching:** MySQL, Redis  
+**Practices:** Clean Architecture, Modular Design, Testability, Scalability, Performance Optimization
+
+---
 
 
 ## 🌐 Socials:
