@@ -40,7 +40,7 @@ I thrive in challenging environments where **engineering rigor, performance, and
 
 **Languages & Frameworks:** Node.js, Bun.js, Express.js, Nest.js, Next.js, Golang, Elysia.js  
 **DevOps & Infrastructure:** Kubernetes, Docker, Prometheus  
-**Databases & Caching:** MySQL, Redis, MongoDB                                                        
+**Databases & Caching:** MySQL, Redis, MongoDB                                        
 **Practices:** Clean Architecture, Modular Design, Testability, Scalability, Performance Optimization
 
 ---
