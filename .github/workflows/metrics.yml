@@ -28,7 +28,6 @@ jobs:
           committer_branch: main
 
           template: classic
-
           config_timezone: Asia/Tehran
           config_display: large
 
@@ -51,7 +50,6 @@ jobs:
           committer_branch: main
 
           template: classic
-
           config_timezone: Asia/Tehran
 
           base: ""
@@ -64,7 +62,7 @@ jobs:
           plugin_languages_colors: github
 
   calendar:
-    name: Calendar
+    name: Isometric Calendar
     runs-on: ubuntu-latest
 
     steps:
@@ -80,60 +78,8 @@ jobs:
           committer_branch: main
 
           template: classic
-
           config_timezone: Asia/Tehran
 
           base: ""
 
           plugin_isocalendar: yes
-
-  habits:
-    name: Coding Habits
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-
-          user: Skryldev
-
-          filename: assets/github-habits.svg
-
-          output_action: commit
-          committer_branch: main
-
-          template: classic
-
-          config_timezone: Asia/Tehran
-
-          base: ""
-
-          plugin_habits: yes
-          plugin_habits_days: 30
-          plugin_habits_charts: yes
-
-  achievements:
-    name: Achievements
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-
-          user: Skryldev
-
-          filename: assets/github-achievements.svg
-
-          output_action: commit
-          committer_branch: main
-
-          template: classic
-
-          config_timezone: Asia/Tehran
-
-          base: ""
-
-          plugin_achievements: yes
-          plugin_achievements_threshold: B

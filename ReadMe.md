@@ -149,12 +149,7 @@ Core Technologies
 </p>
 
 <p align="center">
-  <img width="49%" src="./assets/github-calendar.svg" />
-  <img width="49%" src="./assets/github-habits.svg" />
-</p>
-
-<p align="center">
-  <img width="75%" src="./assets/github-achievements.svg" />
+  <img width="70%" src="./assets/github-calendar.svg" />
 </p>
 
 ## 🌐 Socials:
