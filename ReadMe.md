@@ -144,40 +144,17 @@ Core Technologies
 # 📈 GitHub Analytics
 
 <p align="center">
-
-<img height="170" src="YOUR_STATS_URL" />
-<img height="170" src="YOUR_STREAK_URL" />
-
+  <img width="49%" src="./assets/github-metrics.svg" />
+  <img width="49%" src="./assets/github-languages.svg" />
 </p>
 
 <p align="center">
-
-<img height="170" src="YOUR_LANGUAGES_URL" />
-
+  <img width="49%" src="./assets/github-calendar.svg" />
+  <img width="49%" src="./assets/github-habits.svg" />
 </p>
 
----
-
 <p align="center">
-
-<img src="YOUR_ACTIVITY_GRAPH_URL" />
-
-</p>
-
----
-
-<p align="center">
-
-<img src="YOUR_TROPHY_URL" />
-
-</p>
-
----
-
-<p align="center">
-
-<img src="https://visitcount.itsvg.in/api?id=Skryldev&icon=6&color=6"/>
-
+  <img width="75%" src="./assets/github-achievements.svg" />
 </p>
 
 ## 🌐 Socials:
