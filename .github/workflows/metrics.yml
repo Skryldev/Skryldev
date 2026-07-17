@@ -10,59 +10,130 @@ permissions:
   contents: write
 
 jobs:
-  github-metrics:
+
+  overview:
+    name: Overview
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate GitHub Metrics
-        uses: lowlighter/metrics@latest
-
+      - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
           user: Skryldev
+
           filename: assets/github-metrics.svg
 
-          # Output
           output_action: commit
           committer_branch: main
 
-          # Template
           template: classic
+
           config_timezone: Asia/Tehran
           config_display: large
 
-          # Base information
           base: header, activity, repositories, metadata
 
-          ##################################
-          ## Languages
-          ##################################
+  languages:
+    name: Languages
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          user: Skryldev
+
+          filename: assets/github-languages.svg
+
+          output_action: commit
+          committer_branch: main
+
+          template: classic
+
+          config_timezone: Asia/Tehran
+
+          base: ""
 
           plugin_languages: yes
-          plugin_languages_limit: 6
+          plugin_languages_limit: 8
           plugin_languages_sections: most-used
           plugin_languages_indepth: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_colors: github
 
-          ##################################
-          ## Achievements
-          ##################################
+  calendar:
+    name: Calendar
+    runs-on: ubuntu-latest
 
-          plugin_achievements: yes
-          plugin_achievements_threshold: B
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
 
-          ##################################
-          ## Habits
-          ##################################
+          user: Skryldev
+
+          filename: assets/github-calendar.svg
+
+          output_action: commit
+          committer_branch: main
+
+          template: classic
+
+          config_timezone: Asia/Tehran
+
+          base: ""
+
+          plugin_isocalendar: yes
+
+  habits:
+    name: Coding Habits
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          user: Skryldev
+
+          filename: assets/github-habits.svg
+
+          output_action: commit
+          committer_branch: main
+
+          template: classic
+
+          config_timezone: Asia/Tehran
+
+          base: ""
 
           plugin_habits: yes
           plugin_habits_days: 30
           plugin_habits_charts: yes
 
-          ##################################
-          ## Calendar
-          ##################################
+  achievements:
+    name: Achievements
+    runs-on: ubuntu-latest
 
-          plugin_isocalendar: yes
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          user: Skryldev
+
+          filename: assets/github-achievements.svg
+
+          output_action: commit
+          committer_branch: main
+
+          template: classic
+
+          config_timezone: Asia/Tehran
+
+          base: ""
+
+          plugin_achievements: yes
+          plugin_achievements_threshold: B
