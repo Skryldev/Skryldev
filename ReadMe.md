@@ -10,26 +10,26 @@
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img width="100%" src="./assets/overview.svg" alt="GitHub Overview" />
+  <img width="100%" src="./assets/metrics/overview.svg" alt="GitHub Overview" />
 </p>
 
 <p align="center">
-  <img width="49%" src="./assets/languages.svg" alt="Languages" />
-  <img width="49%" src="./assets/achievements.svg" alt="Achievements" />
+  <img width="49%" src="./assets/metrics/languages.svg" alt="Languages" />
+  <img width="49%" src="./assets/metrics/achievements.svg" alt="Achievements" />
 </p>
 
 <p align="center">
-  <img width="49%" src="./assets/habits.svg" alt="Habits" />
-  <img width="49%" src="./assets/calendar.svg" alt="Calendar" />
+  <img width="49%" src="./assets/metrics/habits.svg" alt="Habits" />
+  <img width="49%" src="./assets/metrics/calendar.svg" alt="Calendar" />
 </p>
 
 <p align="center">
-  <img width="100%" src="./assets/repositories.svg" alt="Repositories" />
+  <img width="100%" src="./assets/metrics/repositories.svg" alt="Repositories" />
 </p>
 
 <p align="center">
-  <img width="49%" src="./assets/topics.svg" alt="Topics" />
-  <img width="49%" src="./assets/activity.svg" alt="Activity" />
+  <img width="49%" src="./assets/metrics/topics.svg" alt="Topics" />
+  <img width="49%" src="./assets/metrics/activity.svg" alt="Activity" />
 </p>
 
 ---
