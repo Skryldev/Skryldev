@@ -1,75 +1,96 @@
-# 👋 Hi, I'm Alireza
+# 🚀 Hi, I'm Alireza
 
-**Backend & • DevOps • Engineer | Bun | Golang | Zig | Kubernetes | Docker**
+**Backend & Distributed Systems Engineer**  
+*Production-grade Systems • Go • Bun • Zig • DevOps*
 
-> Building scalable backend systems with **Go**, **Bun**, and modern technologies.
-
----
-
-- 🚀 Building production-grade backend systems
-- ⚡ Passionate about performance engineering
-- ☁️ Kubernetes • Docker • Observability
-- 📚 Always learning low-level systems and distributed architectures
+> Building scalable, high-performance backend systems with a focus on clean architecture and operational excellence.
 
 ---
 
-## 🚀 Engineering Philosophy
+## 📊 GitHub Analytics
 
-- **Clean Architecture & Code Standards**  
-  Committed to **separation of concerns**, modularity, and writing **clean, maintainable code** that stands the test of time.  
+<p align="center">
+  <img width="100%" src="./assets/overview.svg" alt="GitHub Overview" />
+</p>
 
-- **Scalability & Reliability**  
-  Designing services for **fault tolerance, horizontal scalability**, and sustainable growth, rather than short-term fixes.  
+<p align="center">
+  <img width="49%" src="./assets/languages.svg" alt="Languages" />
+  <img width="49%" src="./assets/achievements.svg" alt="Achievements" />
+</p>
 
-- **Performance Optimization**  
-  Continuously optimizing queries, reducing latency, and identifying/eliminating **architectural bottlenecks**.  
+<p align="center">
+  <img width="49%" src="./assets/habits.svg" alt="Habits" />
+  <img width="49%" src="./assets/calendar.svg" alt="Calendar" />
+</p>
 
-- **Engineering Quality & Testability**  
-  Developing with **systematic debugging, thorough testing**, and proactive monitoring to ensure **production reliability**.  
+<p align="center">
+  <img width="100%" src="./assets/repositories.svg" alt="Repositories" />
+</p>
 
-- **End-to-End DevOps Mindset**  
-  Taking ownership of the **entire development lifecycle**, from design and deployment to monitoring and continuous improvement.  
-
-- **Collaborative Professionalism**  
-  Practicing **clear communication, constructive code reviews, proper documentation**, and thriving in **agile team environments**.  
-
-- **Continuous Learning & Modern Practices**  
-  Staying current with **cutting-edge tools, frameworks, and architectural patterns**, applying them in **practical, production-ready solutions**.  
-
-I thrive in challenging environments where **engineering rigor, performance, and scalability** are paramount, and I am passionate about solving complex problems with **elegant, maintainable solutions**.  
-
----
-# ⭐ Featured Projects
-
-## 🚀 SocialTribe
-
-Production-grade Social Network Analysis Platform.
-
-### Highlights
-
-- Graph Storage Engine written in Go
-- React-based Graph Visualization
-- FastAPI Gateway
-- Rust WebAssembly Query Engine
-- Distributed Architecture
-
+<p align="center">
+  <img width="49%" src="./assets/topics.svg" alt="Topics" />
+  <img width="49%" src="./assets/activity.svg" alt="Activity" />
+</p>
 
 ---
 
-## 📊 Graph Storage Engine
+## ⭐ Featured Projects
 
-Binary Graph Database
+### 🚀 SocialTribe
+**Production-grade Social Network Analysis Platform**
 
-Core Technologies
-
-• mmap
-• Write-Ahead Logging (WAL)
-• Hash Indexing
-• Memory Pool
+| Property | Details |
+|----------|---------|
+| **Tech Stack** | Go • Bun • Rust • React • Docker |
+| **Status** | 🟢 Active Development |
+| **Highlights** | Graph Storage Engine • React-based Visualization • FastAPI Gateway • Rust WebAssembly Query Engine • Distributed Architecture |
 
 ---
 
-# 💻 Tech Stack
+### 📊 Graph Storage Engine
+**Binary Graph Database with High-Performance Query Engine**
+
+| Property | Details |
+|----------|---------|
+| **Tech Stack** | Go • Zig • mmap • WAL |
+| **Status** | 🟡 Core Implementation |
+| **Highlights** | Memory-mapped I/O • Write-Ahead Logging • Hash Indexing • Memory Pool Optimization |
+
+---
+
+## 🏗 Architecture Interests
+
+• **Distributed Systems** – Building resilient, scalable microservices
+• **High-Performance Computing** – Optimizing for throughput and latency
+• **Graph Databases** – Efficient storage and querying of connected data
+• **Microservices** – Domain-driven design and service orchestration
+• **Clean Architecture** – Separation of concerns and maintainability
+• **DevOps & Platform Engineering** – CI/CD, observability, and infrastructure as code
+
+---
+
+## 💻 Engineering Philosophy
+
+- **Clean Architecture & Code Quality** – Separation of concerns, modular design, and maintainable codebases
+- **Scalability & Reliability** – Fault-tolerant systems designed for horizontal growth
+- **Performance Optimization** – Query optimization, latency reduction, and bottleneck elimination
+- **DevOps Ownership** – End-to-end responsibility from design to production monitoring
+- **Continuous Learning** – Applying cutting-edge tools and patterns to real-world problems
+
+---
+
+## 📚 Currently Learning
+
+• **Kubernetes** – Advanced orchestration and operator patterns  
+• **SRE Practices** – Service Level Objectives, error budgets, and incident management  
+• **System Design** – Large-scale distributed architectures  
+• **Linux Internals** – Kernel, processes, memory management, and I/O  
+• **WebAssembly** – High-performance browser and edge computing  
+• **Distributed Databases** – Consistency models, sharding, and replication strategies
+
+---
+
+## 💻 Tech Stack
 
 ### 🚀 Languages
 ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
@@ -82,15 +103,14 @@ Core Technologies
 ---
 
 ### ⚙️ Backend
-![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Gin](https://img.shields.io/badge/Gin-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Chi](https://img.shields.io/badge/Chi-000000?style=for-the-badge)
+![Chi](https://img.shields.io/badge/Chi-000000?style=for-the-badge&logo=go&logoColor=white)
 ![Bun](https://img.shields.io/badge/Bun-%23000000.svg?style=for-the-badge&logo=bun&logoColor=white)
-![Elysia](https://img.shields.io/badge/Elysia-000000?style=for-the-badge)
-![httpz](https://img.shields.io/badge/httpz-F7A41D?style=for-the-badge)
+![Elysia](https://img.shields.io/badge/Elysia-000000?style=for-the-badge&logo=elysia&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/rabbitmq-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=for-the-badge)
-![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge)
+![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=for-the-badge&logo=grpc&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socket.io&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 
 ---
@@ -105,7 +125,14 @@ Core Technologies
 
 ---
 
-### ☁️ DevOps & Infrastructure
+### 📨 Messaging
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
+![NATS](https://img.shields.io/badge/NATS-1999CC?style=for-the-badge&logo=nats&logoColor=white)
+
+---
+
+### ☁️ DevOps & Observability
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Traefik](https://img.shields.io/badge/Traefik-24A1C1?style=for-the-badge&logo=traefikproxy&logoColor=white)
@@ -115,6 +142,7 @@ Core Technologies
 ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-6929C4?style=for-the-badge&logo=opentelemetry&logoColor=white)
 ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 
 ---
 
@@ -127,30 +155,30 @@ Core Technologies
 
 ---
 
+### 🖥️ Desktop
+![Tauri](https://img.shields.io/badge/tauri-%2324C8DB.svg?style=for-the-badge&logo=tauri&logoColor=%23FFFFFF)
+![Wails](https://img.shields.io/badge/Wails-DF0000?style=for-the-badge&logo=wails&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=electron&logoColor=white)
+![Nuitka](https://img.shields.io/badge/Nuitka-1F4B99?style=for-the-badge&logo=nuitka&logoColor=white)
+
+---
+
 ### 🛠️ Tools
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
 ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
+![VSCode](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
 
 ---
 
-### 🖥️ Desktop
-![Tauri](https://img.shields.io/badge/tauri-%2324C8DB.svg?style=for-the-badge&logo=tauri&logoColor=%23FFFFFF)
-![Wails](https://img.shields.io/badge/Wails-DF0000?style=for-the-badge&logo=wails&logoColor=white)
-![Electron](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=electron&logoColor=white)
-![Nuitka](https://img.shields.io/badge/Nuitka-1F4B99?style=for-the-badge)
+## 🌐 Socials
 
-# 📈 GitHub Analytics
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/Skryl23)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Skryl1622@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Skryl23)
 
-<p align="center">
-  <img width="49%" src="./assets/github-metrics.svg" />
-  <img width="49%" src="./assets/github-languages.svg" />
-</p>
+---
 
-<p align="center">
-  <img width="70%" src="./assets/github-calendar.svg" />
-</p>
-
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Skryl23) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:Skryl1622@gmail.com) 
+> 💡 *"Building systems that are not just functional, but elegant, scalable, and resilient."*
