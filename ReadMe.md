@@ -43,7 +43,7 @@ A modular, production-grade graph database platform with a custom binary storage
 
 | Property | Details |
 |----------|---------|
-| **Repository** | [Graph Database Platform](https://github.com/Skryl23/graph-db-platform) |
+| **Repository** | [Graph Database Platform](https://github.com/Skryldev/SocialTribe) |
 | **Status** | 🟢 Production-Ready |
 | **Tech Stack** | Go • Rust • Zig • Python • TypeScript • React • Tauri |
 
