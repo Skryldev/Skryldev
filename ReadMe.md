@@ -36,25 +36,114 @@
 
 ## ⭐ Featured Projects
 
-### 🚀 SocialTribe
-**Production-grade Social Network Analysis Platform**
+### 🚀 Graph Database Platform
+**Embedded, Cross-Platform Graph Database with WebAssembly Query Engine**
+
+A modular, production-grade graph database platform with a custom binary storage engine, WASM-powered query processor, and full-stack management interface.
 
 | Property | Details |
 |----------|---------|
-| **Tech Stack** | Go • Bun • Rust • React • Docker |
-| **Status** | 🟢 Active Development |
-| **Highlights** | Graph Storage Engine • React-based Visualization • FastAPI Gateway • Rust WebAssembly Query Engine • Distributed Architecture |
+| **Repository** | [Graph Database Platform](https://github.com/Skryl23/graph-db-platform) |
+| **Status** | 🟢 Production-Ready |
+| **Tech Stack** | Go • Rust • Zig • Python • TypeScript • React • Tauri |
 
 ---
 
-### 📊 Graph Storage Engine
-**Binary Graph Database with High-Performance Query Engine**
+#### 🗄️ Storage Engine (Go)
+- Custom binary graph storage with **Memory-Mapped I/O**
+- **Write-Ahead Logging (WAL)** for durability
+- **Segmented Storage** architecture
+- **ARC Cache** + **Bloom Filter** for performance
+- **Hash Indexing** & **Memory Pool** optimization
+- **gRPC** interface with **Structured Logging**
 
-| Property | Details |
-|----------|---------|
-| **Tech Stack** | Go • Zig • mmap • WAL |
-| **Status** | 🟡 Core Implementation |
-| **Highlights** | Memory-mapped I/O • Write-Ahead Logging • Hash Indexing • Memory Pool Optimization |
+---
+
+#### ⚡ Query Engine (Rust + WebAssembly)
+- Independent query engine compiled to **WebAssembly**
+- Layered architecture:
+  - **Lexer** → **Parser** → **AST** → **Semantic Analysis** → **Query Planner**
+- SQL-like query language support
+- Optimized execution planning
+
+---
+
+#### 🖥️ Backend Management (Python + FastAPI)
+- **Snapshot & Backup Manager** for data recovery
+- **Nuitka** compilation to standalone executable
+- **Free-Dependency** deployment (no Python runtime required)
+- Exposed as **Tauri Sidecar** for seamless integration
+
+---
+
+#### 🎨 Frontend (TypeScript + React)
+- **Analytics Dashboards** for real-time insights
+- **Graph Studio** for query writing and execution
+- **Community Detection** algorithms
+- **React Flow** interactive graph visualization
+- **Viewport-Based Fetching** (Google Maps-style progressive loading)
+- Interactive documentation for graph algorithms and data structures
+
+---
+
+#### 🔬 Benchmark Engine (Rust + Zig)
+- **Rust-based** performance benchmarking framework
+- **Zig** implementations for algorithm optimization
+- Native library with **C Extension** + **C ABI**
+- Python bindings for seamless integration
+- Cross-algorithm performance comparison
+
+---
+
+#### 🚀 Deployment & CI/CD
+- **Docker Compose** for local development
+- **Kubernetes** for production orchestration
+- Full CI/CD pipeline with automated testing and deployment
+
+---
+
+#### 🏗️ Final Build Architecture
+```
+┌─────────────────────────────────────────────────────┐
+│           Tauri Desktop Application                 │
+│  ┌──────────────────────────────────────────────┐   │
+│  │  Frontend (React + TypeScript)              │   │
+│  └──────────────────────────────────────────────┘   │
+│  ┌──────────────────────────────────────────────┐   │
+│  │  Tauri Sidecar                              │   │
+│  │  ┌───────────────────────────────────────┐  │   │
+│  │  │  Python Backend (Nuitka Built)        │  │   │
+│  │  │  - Snapshot & Backup Manager           │  │   │
+│  │  └───────────────────────────────────────┘  │   │
+│  │  ┌───────────────────────────────────────┐  │   │
+│  │  │  Go Storage Engine                    │  │   │
+│  │  │  - MMap • WAL • Segmented Storage     │  │   │
+│  │  │  - ARC Cache • Bloom Filter           │  │   │
+│  │  └───────────────────────────────────────┘  │   │
+│  │  ┌───────────────────────────────────────┐  │   │
+│  │  │  Rust WASM Query Engine               │  │   │
+│  │  │  - Lexer • Parser • AST • Planner     │  │   │
+│  │  └───────────────────────────────────────┘  │   │
+│  │  ┌───────────────────────────────────────┐  │   │
+│  │  │  Zig Library (Native + C ABI)         │  │   │
+│  │  │  - Algorithm Optimizations            │  │   │
+│  │  └───────────────────────────────────────┘  │   │
+│  │  ┌───────────────────────────────────────┐  │   │
+│  │  │  Rust Benchmark Engine                │  │   │
+│  │  └───────────────────────────────────────┘  │   │
+│  └──────────────────────────────────────────────┘   │
+└─────────────────────────────────────────────────────┘
+```
+
+---
+
+#### 🔑 Key Features
+- ✅ **Cross-Platform** (Windows & Linux)
+- ✅ **Embedded** - No external dependencies
+- ✅ **High Performance** with memory-mapped I/O
+- ✅ **SQL-like Query Language** via WASM
+- ✅ **Interactive Graph Visualization** with React Flow
+- ✅ **Production-Ready** with full CI/CD
 
 ---
 
