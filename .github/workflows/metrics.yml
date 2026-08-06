@@ -75,46 +75,6 @@ jobs:
           plugin_languages_analysis_timeout: 15
           plugin_languages_colors: github
 
-      - name: Generate Achievements
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: ${{ env.USERNAME }}
-
-          filename: ${{ env.OUTPUT_DIR }}/achievements.svg
-
-          output_action: commit
-          committer_branch: main
-
-          template: ${{ env.TEMPLATE }}
-          config_timezone: ${{ env.TZ }}
-
-          base: ""
-
-          plugin_achievements: yes
-          plugin_achievements_display: detailed
-
-      - name: Generate Habits
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: ${{ env.USERNAME }}
-
-          filename: ${{ env.OUTPUT_DIR }}/habits.svg
-
-          output_action: commit
-          committer_branch: main
-
-          template: ${{ env.TEMPLATE }}
-          config_timezone: ${{ env.TZ }}
-
-          base: ""
-
-          plugin_habits: yes
-          plugin_habits_days: 30
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-
       - name: Generate Repository Insights
         uses: lowlighter/metrics@latest
         with:

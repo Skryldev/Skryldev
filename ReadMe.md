@@ -15,11 +15,6 @@
 
 <p align="center">
   <img width="49%" src="./assets/metrics/languages.svg" alt="Languages" />
-  <img width="49%" src="./assets/metrics/achievements.svg" alt="Achievements" />
-</p>
-
-<p align="center">
-  <img width="49%" src="./assets/metrics/habits.svg" alt="Habits" />
   <img width="49%" src="./assets/metrics/calendar.svg" alt="Calendar" />
 </p>
 
