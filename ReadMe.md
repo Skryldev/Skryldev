@@ -245,4 +245,3 @@ I thrive in challenging environments where engineering rigor, performance, and s
 
 ---
 
-> 💡 *"Building systems that are not just functional, but elegant, scalable, and resilient."*
