@@ -4,81 +4,188 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */12 * * *"
+
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write
 
-jobs:
+concurrency:
+  group: github-metrics
+  cancel-in-progress: true
 
-  overview:
-    name: Overview
+env:
+  USERNAME: Skryldev
+  TZ: Asia/Tehran
+  TEMPLATE: classic
+  DISPLAY: large
+  OUTPUT_DIR: assets/metrics
+
+jobs:
+  metrics:
+    name: Generate GitHub Metrics
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Generate Overview
+        uses: lowlighter/metrics@v3
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          user: ${{ env.USERNAME }}
 
-          user: Skryldev
-
-          filename: assets/github-metrics.svg
+          filename: ${{ env.OUTPUT_DIR }}/overview.svg
 
           output_action: commit
           committer_branch: main
 
-          template: classic
-          config_timezone: Asia/Tehran
-          config_display: large
+          template: ${{ env.TEMPLATE }}
+          config_timezone: ${{ env.TZ }}
+          config_display: ${{ env.DISPLAY }}
 
           base: header, activity, repositories, metadata
 
-  languages:
-    name: Languages
-    runs-on: ubuntu-latest
+          plugin_introduction: yes
+          plugin_followup: yes
+          plugin_stars: yes
 
-    steps:
-      - uses: lowlighter/metrics@latest
+      - name: Generate Languages
+        uses: lowlighter/metrics@v3
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          user: ${{ env.USERNAME }}
 
-          user: Skryldev
-
-          filename: assets/github-languages.svg
+          filename: ${{ env.OUTPUT_DIR }}/languages.svg
 
           output_action: commit
           committer_branch: main
 
-          template: classic
-          config_timezone: Asia/Tehran
+          template: ${{ env.TEMPLATE }}
+          config_timezone: ${{ env.TZ }}
 
           base: ""
 
           plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_languages_sections: most-used
           plugin_languages_indepth: yes
+          plugin_languages_limit: 10
+          plugin_languages_sections: most-used,recent
           plugin_languages_analysis_timeout: 15
           plugin_languages_colors: github
 
-  calendar:
-    name: Isometric Calendar
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: lowlighter/metrics@latest
+      - name: Generate Achievements
+        uses: lowlighter/metrics@v3
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          user: ${{ env.USERNAME }}
 
-          user: Skryldev
-
-          filename: assets/github-calendar.svg
+          filename: ${{ env.OUTPUT_DIR }}/achievements.svg
 
           output_action: commit
           committer_branch: main
 
-          template: classic
-          config_timezone: Asia/Tehran
+          template: ${{ env.TEMPLATE }}
+          config_timezone: ${{ env.TZ }}
+
+          base: ""
+
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
+
+      - name: Generate Habits
+        uses: lowlighter/metrics@v3
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ${{ env.USERNAME }}
+
+          filename: ${{ env.OUTPUT_DIR }}/habits.svg
+
+          output_action: commit
+          committer_branch: main
+
+          template: ${{ env.TEMPLATE }}
+          config_timezone: ${{ env.TZ }}
+
+          base: ""
+
+          plugin_habits: yes
+          plugin_habits_days: 30
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+
+      - name: Generate Repository Insights
+        uses: lowlighter/metrics@v3
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ${{ env.USERNAME }}
+
+          filename: ${{ env.OUTPUT_DIR }}/repositories.svg
+
+          output_action: commit
+          committer_branch: main
+
+          template: ${{ env.TEMPLATE }}
+          config_timezone: ${{ env.TZ }}
+
+          base: ""
+
+          plugin_notable: yes
+          plugin_notable_repositories: yes
+          plugin_notable_types: commit
+
+      - name: Generate Activity
+        uses: lowlighter/metrics@v3
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ${{ env.USERNAME }}
+
+          filename: ${{ env.OUTPUT_DIR }}/activity.svg
+
+          output_action: commit
+          committer_branch: main
+
+          template: ${{ env.TEMPLATE }}
+          config_timezone: ${{ env.TZ }}
+
+          base: ""
+
+          plugin_lines: yes
+
+      - name: Generate Topics
+        uses: lowlighter/metrics@v3
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ${{ env.USERNAME }}
+
+          filename: ${{ env.OUTPUT_DIR }}/topics.svg
+
+          output_action: commit
+          committer_branch: main
+
+          template: ${{ env.TEMPLATE }}
+          config_timezone: ${{ env.TZ }}
+
+          base: ""
+
+          plugin_topics: yes
+          plugin_topics_limit: 20
+          plugin_topics_mode: icons
+
+      - name: Generate Isometric Calendar
+        uses: lowlighter/metrics@v3
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ${{ env.USERNAME }}
+
+          filename: ${{ env.OUTPUT_DIR }}/calendar.svg
+
+          output_action: commit
+          committer_branch: main
+
+          template: ${{ env.TEMPLATE }}
+          config_timezone: ${{ env.TZ }}
 
           base: ""
 
