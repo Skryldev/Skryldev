@@ -125,11 +125,21 @@ A modular, production-grade graph database platform with a custom binary storage
 
 ## 💻 Engineering Philosophy
 
-- **Clean Architecture & Code Quality** – Separation of concerns, modular design, and maintainable codebases
-- **Scalability & Reliability** – Fault-tolerant systems designed for horizontal growth
-- **Performance Optimization** – Query optimization, latency reduction, and bottleneck elimination
-- **DevOps Ownership** – End-to-end responsibility from design to production monitoring
-- **Continuous Learning** – Applying cutting-edge tools and patterns to real-world problems
+- **Clean Architecture & Code Standards** – Separation of concerns, modularity, and clean, maintainable code that stands the test of time
+
+- **Scalability & Reliability** – Fault-tolerant services with horizontal scalability and sustainable growth, not short-term fixes
+
+- **Performance Optimization** – Query optimization, latency reduction, and eliminating architectural bottlenecks
+
+- **Engineering Quality & Testability** – Systematic debugging, thorough testing, and proactive monitoring for production reliability
+
+- **End-to-End DevOps Mindset** – Full ownership from design and deployment to monitoring and continuous improvement
+
+- **Collaborative Professionalism** – Clear communication, constructive code reviews, proper documentation, and agile team collaboration
+
+- **Continuous Learning** – Applying cutting-edge tools and modern architectural patterns to practical, production-ready solutions
+
+I thrive in challenging environments where engineering rigor, performance, and scalability are paramount, solving complex problems with elegant, maintainable solutions.
 
 ---
 
